@@ -1,1 +1,119 @@
-/* место для вашего кода */
+.header{
+    padding:92px 24px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background: #FFF;
+    color: #000;
+    font-family: 'Raleway';
+}
+
+.header__links-list{
+    display: flex;
+    padding-left:26.52px;
+    padding-right: 36px;
+    column-gap: 31.48px;
+}
+
+.header__link{
+    color: #000;
+    letter-spacing: 0.18px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header__links-list-item{
+    list-style-type: circle;
+    /* list-style-image: url(../images/list_mark.svg); пробовала добавить маркер картинкой*/
+}
+
+.header__links-list-item a{
+    text-decoration-thickness: 0.1px; 
+    text-underline-offset: 3px;
+}
+
+.header__links-list-item_no-bullit{
+    list-style-type: none;
+    /* list-style-image:none; маркер-картинкой*/
+}
+
+.header__logo-image{
+    width: 148px;
+    height: 105px;
+}
+
+.header__logo{
+    display: block;
+}
+
+.address{
+    padding-left: 185px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35;
+}
+
+.address a {
+    text-decoration-thickness: 0.1px; 
+    text-underline-offset: 3px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 757px; 
+    z-index: -1;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.cover{
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: 124%;
+    background-repeat: no-repeat;
+    height: 757px;
+    padding: 165px 50px 50px 50px; 
+    z-index:0;
+    position:relative;
+}
+
+.cover__title{
+    display: block;
+    z-index:1;
+    font-size: 100px;
+    font-weight: 700;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    
+}
+
+.aligned-text{
+    display: flex;
+    line-height:115px;
+}
+
+.aligned-text_center{
+    display: flex;
+    justify-content: center;
+    line-height:139px;
+}
+
+.aligned-text_right{
+    display: flex;
+    line-height:100px;
+    justify-content: right;
+}
+
+.no-letter-spacing{
+    letter-spacing: 0px;
+}
+
+.letter-spacing-extended{
+    letter-spacing: 60px;
+}
+
