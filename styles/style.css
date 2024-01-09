@@ -29,7 +29,7 @@
 }
 
 .header__links-list-item a {
-    text-decoration-thickness: 0.1px; 
+    text-decoration-thickness: 1px; 
     text-underline-offset: 3px;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .address a {
-    text-decoration-thickness: 0.1px; 
+    text-decoration-thickness: 1px; 
     text-underline-offset: 3px;
 }
 
@@ -193,7 +193,7 @@
     font-weight: 700;
     line-height:26.4px;
     text-decoration-line: underline;
-    text-decoration-thickness: 0.1px; 
+    text-decoration-thickness: 1px; 
     text-underline-offset: 3px;
     text-transform: uppercase;
 }
@@ -226,7 +226,7 @@
     display:block;
     align-items: end;
     margin:30px 40px;
-    text-decoration-thickness: 0.1px; 
+    text-decoration-thickness: 1px; 
     text-underline-offset: 3px;
     font-size: 20px;
     font-weight: 400;
@@ -312,7 +312,7 @@
 }
 
 .footer__social-link {
-    text-decoration-thickness: 0.1px; 
+    text-decoration-thickness: 1px; 
     text-underline-offset: 3px;
 }
 
